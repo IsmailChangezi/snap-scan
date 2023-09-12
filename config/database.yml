@@ -7,13 +7,13 @@ default: &default
 
 development:
   <<: *default
-  database: snap_scan_development
+  database: snaps_scan_development
   user: postgres
   password: ismail
 
 test:
   <<: *default
-  database: snap_scan_test
+  database: snaps_scan_test
   user: postgres
   password: ismail
 
