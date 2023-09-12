@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  user: postgres
+  password: ismail
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: snap_scan_development
+  user: postgres
+  password: ismail
+
+test:
+  <<: *default
+  database: snap_scan_test
+  user: postgres
+  password: ismail
+
+production:
+  <<: *default
+  database: recipe-rails_production
+  username: blog-app
+  password: <%= ENV["HELLORAILS_DATABASE_PASSWORD"] %>

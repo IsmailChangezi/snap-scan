@@ -1,2 +1,24 @@
-# snap-scan
-SnapScan is a mobile application specially crafted to let the user have a count of their expanses. It provides the user with security and an impressive UI/UX. This app is built with Ruby On Rails.
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
