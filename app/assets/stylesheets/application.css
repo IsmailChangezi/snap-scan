@@ -1,15 +1,88 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f6f8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.login-btns {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.login-btns * {
+  width: 100%;
+  height: 40px;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+}
+
+.sign-up .field input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  margin: 0.3px;
+}
+
+.sign-up .field input::after {
+  border: none;
+}
+
+.sign-up .actions {
+  position: absolute;
+  left: 40%;
+  margin-top: 20px;
+  background-color: #316aae;
+}
+
+.subtitle {
+  margin: 16px;
+  border-bottom: 4px solid #316aae;
+  width: 100px;
+}
+
+/* Category Styles */
+
+.parent-cat {
+  display: flex;
+  flex-direction: column;
+}
+
+.children-cat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  height: 90px;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.children-cat svg {
+  width: 30px;
+  height: 30px;
+}

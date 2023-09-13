@@ -1,0 +1,13 @@
+<div class="sign-up">
+<%= form_with model: @category do |form|%>  
+    <div>
+        <%= form.text_field :icon , placeholder: "Enter Icon Link"%>
+    </div>
+     <div>
+        <%= form.text_field :name , placeholder: "Enter a Name"%>
+    </div>
+    <div>
+        <%= form.submit%>
+    </div>
+<%end%>
+</div>
