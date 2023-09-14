@@ -1,1 +1,19 @@
-<h1>Helloo Payments</h1>
+<div id="payments">
+
+<% if @payments.empty? %>
+      <div class="empty-message">There are no Transactions for this category. Add one by clicking the button below.</div>
+    <% else %>
+  <% @payments.each do |payment| %>
+  <div class="single-payment">
+      <p class="payment-name"><%= payment.name %></p>
+      <p> $ <%= payment.amount %> </p>
+    </div>
+  <% end %>
+  <% end %>
+
+ <div class="green-btn">
+    <%= link_to "NEW TRANSACTION", new_category_payment_path %>
+  </div>
+
+</div>
+
