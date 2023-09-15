@@ -108,7 +108,7 @@ This is the link to the video explaination
 https://www.loom.com/share/My-Project-Journey-0daf09dd9d7242559ce9247b87e25aa8?sid=058c64bf-1f3c-4da9-85a3-62b53dcca18e
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+https://snap-scan-rails.onrender.com/
 <details>
   <summary>Test Account</summary>
   -email: test@gmail.com
