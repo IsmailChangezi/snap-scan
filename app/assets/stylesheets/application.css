@@ -93,3 +93,15 @@ body {
   margin: 2%;
   background: white;
 }
+
+.abt-des {
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  text-align: center;
+}

@@ -1,4 +1,5 @@
 class PaymentsController < ApplicationController
+  before_action :authenticate_user!
   def index
     @category = Category.find(params[:category_id])
     @payments = Payment.where(author: current_user, category_id: @category.id).order(updated_at: :desc)

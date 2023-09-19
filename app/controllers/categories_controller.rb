@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  before_action :authenticate_user!
   def index
     @categories = Category.includes(:payments).where(user_id: current_user.id).order(updated_at: :desc)
   end
