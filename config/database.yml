@@ -19,6 +19,7 @@ test:
 
 production:
   <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
   database: recipe-rails_production
   username: blog-app
   password: <%= ENV["HELLORAILS_DATABASE_PASSWORD"] %>
