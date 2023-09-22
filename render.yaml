@@ -1,7 +1,7 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: snap-scan-postgres
+    databaseName: snap_scan_postgres
+    user: snap_scan_postgres_user
 
 services:
   - type: web
