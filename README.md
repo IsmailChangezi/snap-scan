@@ -108,7 +108,9 @@ This is the link to the video explaination
 https://www.loom.com/share/My-Project-Journey-0daf09dd9d7242559ce9247b87e25aa8?sid=058c64bf-1f3c-4da9-85a3-62b53dcca18e
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://snap-scan-9818.onrender.com
+
+###### https://snap-scan-rhst.onrender.com
+
 <details>
   <summary>Test Account</summary>
   -email: test@gmail.com
@@ -133,7 +135,7 @@ https://snap-scan-9818.onrender.com
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PrantoshB/Food-On-Rails/issues).
+Feel free to check the [issues page](https://github.com/IsmailChangezi/snap-scan/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
